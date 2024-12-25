@@ -5,7 +5,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('final_model.h5')
+    return tf.keras.models.load_model('model2.h5')
 
 @st.cache_data
 def load_tokenizer():
